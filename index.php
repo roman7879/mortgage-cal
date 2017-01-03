@@ -21,7 +21,7 @@ function test_input($data) {
         return $data;
 	}
 	?>
-
+	<h1>Zone:zone-here</h1>
 <h2>Simple Mortgage Calculator</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   Mortgage Amount: <input type="text" name="amount">
